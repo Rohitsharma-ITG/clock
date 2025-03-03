@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock with Numbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock">
+        <div class="hour-hand"></div>
+        <div class="minute-hand"></div>
+        <div class="second-hand"></div>
+        <div class="center"></div>
+
+        <!-- Hour numbers -->
+        <div class="number" style="top: 10px; left: 50%;">12</div>
+        <div class="number" style="top: 50%; left: 90%;">3</div>
+        <div class="number" style="top: 90%; left: 50%;">6</div>
+        <div class="number" style="top: 50%; left: 10%;">9</div>
+
+        <!-- Numbers for other hours -->
+        <div class="number" style="top: 15%; left: 70%;">1</div>
+        <div class="number" style="top: 30%; left: 85%;">2</div>
+        <div class="number" style="top: 70%; left: 85%;">4</div>
+        <div class="number" style="top: 85%; left: 70%;">5</div>
+        <div class="number" style="top: 85%;left: 27%;">7</div>
+        <div class="number" style="top: 70%;left: 15%;">8</div>
+        <div class="number" style="top: 30%;left: 15%;">10</div>
+        <div class="number" style="top: 15%;left: 27%;">11</div>
+
+    </div>
+    <div class="digital">
+        <p id="digi-hour"></p>
+    </div>
+    <div class="set_alarm">
+        <button id="set_alarm">Set alarm</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
